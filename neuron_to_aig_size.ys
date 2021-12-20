@@ -1,0 +1,4 @@
+read_verilog lut_verilog.v
+synth -flatten -top lut_verilog
+aigmap
+write_aiger -ascii lut_verilog.aig
